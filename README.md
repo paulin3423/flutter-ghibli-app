@@ -1,24 +1,46 @@
-# Studio Ghibli Flutter App
+# Flutter Studio Ghibli App
 
-## Descrição
-Aplicativo Flutter que consome a Studio Ghibli API para listar e exibir detalhes de filmes.
+## Descrição do Projeto
+Este projeto foi desenvolvido com o objetivo de praticar integração com APIs públicas, manipulação de dados JSON, e construção de interfaces modernas utilizando Flutter. A aplicação lista todos os filmes da Studio Ghibli, com imagens e informações relevantes como diretor, produtor, data de lançamento e sinopse.
 
-## API Utilizada
-- [Studio Ghibli API](https://ghibliapi.vercel.app/)
+## Funcionalidades
+- 🔎 Listagem dos filmes com título e imagem.
+- ✅ Navegação para tela de detalhes com informações completas.
+- 🎨 Animações suaves utilizando Hero Animation.
+- 🌐 Consumo de API REST.
+- 📶 Tratamento de erros e carregamento assíncrono.
+- 📱 Layout responsivo para diferentes tamanhos de tela.
+- 🖼️ Cache de imagens para otimização de performance.
 
-## Estrutura
-- `models/` - Modelos de dados.
-- `services/` - Comunicação com a API.
-- `screens/` - Telas principais.
-- `widgets/` - Componentes reutilizáveis.
+## Tecnologias Utilizadas
+- Flutter – SDK para desenvolvimento multiplataforma.
+- Dart – Linguagem de programação.
+- HTTP – Realização de requisições REST.
+- CachedNetworkImage – Carregamento otimizado de imagens com cache.
+- Studio Ghibli API – Fonte de dados pública e gratuita.
 
-## Como executar
-1. Clone o repositório.
-2. Execute `flutter pub get`.
-3. Execute `flutter run`.
+## Estrutura do Projeto
+lib/
+├── models/
+│ └── movie.dart → Modelagem dos dados da API.
+├── services/
+│ └── api_service.dart → Serviço de requisição HTTP.
+├── screens/
+│ ├── movie_list_screen.dart → Tela de listagem.
+│ └── movie_detail_screen.dart → Tela de detalhes.
+├── widgets/
+│ └── movie_card.dart → Componente reutilizável (opcional).
+├── main.dart → Ponto de entrada da aplicação.
 
-## Recursos
-- Consumo de API REST.
-- Listagem com imagens.
-- Detalhamento com animações Hero.
-- Tratamento de erros.
+## Como Executar
+
+```bash
+# Clone este repositório:
+git clone https://github.com/seuusuario/flutter-ghibli-app.git
+cd flutter-ghibli-app
+
+# Instale as dependências:
+flutter pub get
+
+# Execute o aplicativo:
+flutter run

@@ -1,16 +1,24 @@
-# att_studio
+# Studio Ghibli Flutter App
 
-A new Flutter project.
+## Descrição
+Aplicativo Flutter que consome a Studio Ghibli API para listar e exibir detalhes de filmes.
 
-## Getting Started
+## API Utilizada
+- [Studio Ghibli API](https://ghibliapi.vercel.app/)
 
-This project is a starting point for a Flutter application.
+## Estrutura
+- `models/` - Modelos de dados.
+- `services/` - Comunicação com a API.
+- `screens/` - Telas principais.
+- `widgets/` - Componentes reutilizáveis.
 
-A few resources to get you started if this is your first Flutter project:
+## Como executar
+1. Clone o repositório.
+2. Execute `flutter pub get`.
+3. Execute `flutter run`.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Recursos
+- Consumo de API REST.
+- Listagem com imagens.
+- Detalhamento com animações Hero.
+- Tratamento de erros.

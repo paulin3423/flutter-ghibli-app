@@ -20,17 +20,21 @@ Este projeto foi desenvolvido com o objetivo de praticar integração com APIs p
 - Studio Ghibli API – Fonte de dados pública e gratuita.
 
 ## Estrutura do Projeto
+
+```plaintext
 lib/
 ├── models/
-│ └── movie.dart → Modelagem dos dados da API.
+│   └── movie.dart                → Modelagem dos dados da API.
 ├── services/
-│ └── api_service.dart → Serviço de requisição HTTP.
+│   └── api_service.dart          → Serviço de requisição HTTP.
 ├── screens/
-│ ├── movie_list_screen.dart → Tela de listagem.
-│ └── movie_detail_screen.dart → Tela de detalhes.
+│   ├── movie_list_screen.dart    → Tela de listagem.
+│   └── movie_detail_screen.dart  → Tela de detalhes.
 ├── widgets/
-│ └── movie_card.dart → Componente reutilizável (opcional).
-├── main.dart → Ponto de entrada da aplicação.
+│   └── movie_card.dart           → Componente reutilizável (opcional).
+├── main.dart                     → Ponto de entrada da aplicação.
+
+````
 
 ## Como Executar
 

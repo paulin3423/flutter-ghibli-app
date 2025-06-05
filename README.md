@@ -40,7 +40,7 @@ lib/
 
 ```bash
 # Clone este repositório:
-git clone https://github.com/seuusuario/flutter-ghibli-app.git
+https://github.com/paulin3423/flutter-ghibli-app.git
 cd flutter-ghibli-app
 
 # Instale as dependências:
